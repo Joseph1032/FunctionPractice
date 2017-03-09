@@ -29,7 +29,14 @@ function maxOfThree(a,b,c){
 // ---------------------
 
 function isVowel(char){
-    //...
+    var vowels = "UAE"
+    return vowels.indexOF(char) !== -1
+    for (var i = 0; i < vowels.length; i += 1) {
+      if (char == vowels[i]) {
+        return true
+      }
+    }
+    return false
 }
 
 // ---------------------
